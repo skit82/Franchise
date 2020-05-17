@@ -5,6 +5,8 @@
 	<title>Франшиза</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slick.css"/>
+  <link rel="stylesheet" href="css/slick-theme.css"/>
 </head>
 <body>
 	<header class="page-header">
@@ -228,33 +230,57 @@
 				</div>
 			</div>
 		</section>
+		<div class="slaider">
+				<div class="slaider__wrapper">
+					<div class="slaider__list">
+						<div class="slaider__item">
+							<img src="img/slaider1.jpg" width="574" height="476" alt="Фото" class="slaider__img-one">
+						</div>
+						<div class="slaider__item">
+							<img src="img/slaider2.jpg" width="772" height="476" alt="Фото" class="slaider__img-two">
+						</div>
+						<div class="slaider__item">
+							<img src="img/slaider3.jpg" width="574" height="476" alt="Фото" class="slaider__img-three">
+						</div>
+							<div class="slaider__item">
+							<img src="img/slaider1.jpg" width="574" height="476" alt="Фото" class="slaider__img-one">
+						</div>
+						<div class="slaider__item">
+							<img src="img/slaider2.jpg" width="772" height="476" alt="Фото" class="slaider__img-two">
+						</div>
+						<div class="slaider__item">
+							<img src="img/slaider3.jpg" width="574" height="476" alt="Фото" class="slaider__img-three">
+						</div>
+					</div>
+				</div>
+		</div>
 		<section class="info">
-			<div class="info__inner">
-				<div class="info__block">
-					<span class="info__number">1500+</span>
-					<p class="info__descr">
-						Спроектировано объектов       
-					</p>
+				<div class="info__inner">
+					<div class="info__block">
+						<span class="info__number">1500+</span>
+						<p class="info__descr">
+							Спроектировано объектов       
+						</p>
+					</div>
+					<div class="info__block">
+						<span class="info__number">673+</span>
+						<p class="info__descr">
+							Домов под ключ       
+						</p>
+					</div>
+					<div class="info__block">
+						<span class="info__number">1500м2</span>
+						<p class="info__descr">
+							Самый большой дом       
+						</p>
+					</div>
+					<div class="info__block">
+						<span class="info__number">27м2</span>
+						<p class="info__descr">
+							Самый маленький дом       
+						</p>
+					</div>
 				</div>
-				<div class="info__block">
-					<span class="info__number">673+</span>
-					<p class="info__descr">
-						Домов под ключ       
-					</p>
-				</div>
-				<div class="info__block">
-					<span class="info__number">1500м2</span>
-					<p class="info__descr">
-						Самый большой дом       
-					</p>
-				</div>
-				<div class="info__block">
-					<span class="info__number">27м2</span>
-					<p class="info__descr">
-						Самый маленький дом       
-					</p>
-				</div>
-			</div>
 		</section>
 		<section class="description">
 			<div class="description__wrapper">
@@ -865,5 +891,37 @@
 				</div>
 			</div>
 	</footer>
+	<div class="popup-fade">
+    			<div class="popup">
+        		<a class="popup-close" href="#">
+        			<img src="img/popap-clouse.png" width="17" height="18" alt="Закрыть">
+        		</a>
+        		<form action="" class="form-redact">
+        			<h2 class="form-redact__title">
+        				Оставьте заявку и  получите презентацию франшизы
+        			</h2>
+        			<label>
+        				<input class="form-redact__input" type="text" name="name" placeholder="Имя*">
+        			</label>
+        			<label>
+        				<input class="form-redact__input" type="tel" name="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="Телефон*">
+        			</label>
+        			<label>
+        				<input class="form-redact__input" type="email" name="email" placeholder="Почта">
+        			</label>
+        			<a href="" class="form-redact__link">
+        				Получить презентацию
+        			</a>
+        				<p class="form-redact__text">
+        					Нажимая кнопку «Получить презентацию», Вы соглашаетесь с условиями обработки <span>персональных данных</span>
+        				</p>
+        		</form>
+    		</div>        
+			</div>
+		</div>
+	</div>
+	<script  src="jquery/jquery-3.0.0.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
