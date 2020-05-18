@@ -92,8 +92,9 @@ $(document).ready(function() {
           	infinite: true,
           	slidesToShow: 1,
           	slidesToScroll: 1,
-          	centerMode: true,
-          	infinite: true,
+          	// centerMode: "-100px",
+            adaptiveHeight: true,
+            variableWidth: true,
           	dots: false
         }
       	},
