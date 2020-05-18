@@ -1943,10 +1943,10 @@ body {
 	}
 	.busines__foto {
    	position: absolute;
-    left: 572px;
+    left: 578px;
     top: -28px;
-    width: 760px;
-    height: 554px;
+    width: 800px;
+    height: 575px;
 	}
 }
 @media (min-width: 1600px) and (max-width: 2900px) {
